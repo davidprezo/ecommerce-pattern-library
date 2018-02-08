@@ -1,5 +1,6 @@
 :root {
   --color-primary: #601660;
+  --color-primary-light: #7f677f;
   --color-secondary: #E8E8E8;
   --color-type: #383838;
   --color-accent: #514451;
@@ -11,4 +12,20 @@
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  color: #fff;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+}
+
+h2 {
+  color: #E8E8E8;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+}
+
+h3 {
+  color: #fff;
 }

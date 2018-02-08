@@ -10,18 +10,13 @@
     :root {
       --color-patternbot-interface: 0;
       --color-patternbot-interface-opposite: 255;
-        --font-patternbot-primary: "Fjalla One", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     }
 
-      html {
-        font-family: "Fjalla One", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-      }
 
     body {
       background-color: #fff;
     }
   </style>
-    <link href="https://fonts.googleapis.com/css?family&#x3D;Fjalla+One" rel="stylesheet">
 </head>
 <body>
 
@@ -134,7 +129,6 @@
         <ol class="list-group-inline push-1-4 pad-b-1-4">
             <li><a href="#brand-logos">Logos</a></li>
             <li><a href="#brand-colours">Colours</a></li>
-            <li><a href="#brand-typefaces">Typefaces</a></li>
         </ol>
       </nav>
   </div>
@@ -171,23 +165,6 @@
           <div class="resizeable-pattern relative" style="">
             <i class="icon i-48 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
             <iframe data-src="patterns/brand/2-colours.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <div class="pattern-details" id="brand-typefaces" style="">
-        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
-          <h3 class="pattern-name tera push-1-8">Typefaces</h3>
-            <ul class="list-group-inline gutter absolute pin-cr">
-            </ul>
-        </div>
-
-      <div class="pattern-examples pad-t-1-2 pad-b-1-2" style="">
-        <div class="gutter pad-t-1-2 pad-b-1-2">
-          <div class="resizeable-pattern relative" style="">
-            <i class="icon i-48 patternbot-iframe-loading-gears absolute pin-c"><svg><use xlink:href="#patternbot-iframe-loading-gears"></use></svg></i>
-            <iframe data-src="patterns/brand/3-typefaces.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
           </div>
         </div>
 
@@ -673,10 +650,11 @@
 
     <div class="pattern-desc milli island" style="">
       <div class="max-length"><p>There are multiple buttons to choose from for the sake of making them stand out in all situations.</p>
-<p>The regular buttons are used for lighter backgrounds
-The light buttons are used for darker backgrounds
-The ghost buttons are used atop of images</p>
-<p>These are easily customizable with a multitude of font sizes</p>
+<ul>
+<li>The regular buttons are used for lighter backgrounds. I also generally will take half the page until the screen becomes smaller. Buttons and images will be closer to each other for the sake of keeping things compact</li>
+<li>The light buttons are used for darker backgrounds</li>
+<li>The ghost buttons are used atop of images</li>
+</ul>
 </div>
     </div>
 
@@ -712,7 +690,7 @@ The ghost buttons are used atop of images</p>
                 </i>
               </button>
               <code><pre id="buttons-buttons-code-sample-copy-chunk">&lt;a class="btn" href="#"&gt;Standard button&lt;/a>
-&lt;a class="btn btn-light" href="#">Standard button&lt;/a>
+&lt;a class="btn btn-light" href="#">Light button&lt;/a>
 &lt;a class="btn btn-ghost" href="#">Ghost button&lt;/a>
 </pre></code>
             </div>
