@@ -1,8 +1,9 @@
 :root {
   --color-primary: #601660;
   --color-secondary: #E8E8E8;
-  --color-type: #E8E8E8;
+  --color-type: #383838;
   --color-accent: #514451;
+  --color-accent-light: #9e8b9e;
 
   --font-primary:"Fjalla One", sans-serif;
   --font-secondary:"Roboto Slab", serif;
