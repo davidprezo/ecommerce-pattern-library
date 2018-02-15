@@ -14,18 +14,22 @@ html {
   font-family: var(--font-primary);
 }
 
-h1 {
-  color: #fff;
-  font-weight: bold;
-  font-family: "Roboto Slab", serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
 }
 
-h2 {
-  color: #E8E8E8;
-  font-weight: bold;
-  font-family: "Roboto Slab", serif;
-}
-
-h3 {
-  color: #fff;
+blockquote,
+ul,
+ol,
+dl,
+cite,
+q {
+  color: var(--color-neutral);
+  font-family: var(--font-primary);
 }
