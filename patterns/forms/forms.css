@@ -1,0 +1,21 @@
+input,
+select {
+  background-color: var(--color-secondary);
+  transition: all 1500ms ease;
+  outline: none;
+}
+
+input,
+select:hover {
+  background-color: #fff;
+}
+
+input {
+  background-color: var(--color-secondary);
+  transition: all 1500ms ease;
+  outline: none;
+}
+
+input:hover {
+  background-color: #fff;
+}

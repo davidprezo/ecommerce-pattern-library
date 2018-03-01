@@ -31,5 +31,10 @@ dl,
 cite,
 q {
   color: var(--color-neutral);
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
+}
+
+mark {
+  background-color: var(--color-primary);
+  color: #fff;
 }
