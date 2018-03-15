@@ -1,0 +1,15 @@
+section {
+  background-color: var(--color-secondary);
+}
+
+.fullsize {
+  background-color: var(--color-primary);
+}
+
+h2 {
+  color: var(--color-secondary);
+}
+
+.white {
+  color: var(--color-secondary);
+}

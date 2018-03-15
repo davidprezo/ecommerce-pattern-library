@@ -1,15 +1,14 @@
 header {
-  background-color: var(--color-accent)
+  background-color: var(--color-accent);
 }
 
 header nav {
-    padding-top: 3em;
-    text-align: center;
-  }
+  padding-top: 3em;
+  text-align: center;
+}
 
 header nav li {
   display: inline;
-  width: 100%;
   padding: 1.5em;
 }
 
