@@ -348,9 +348,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * C:\Users\David\Dropbox\gd4\Web Dev 4\ecommerce-pattern-library
- * @version 1519917898810
+ * @version 1521724458719
  */
-const patternManifest_1519917898810 = {
+const patternManifest_1521724458719 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -521,7 +521,9 @@ const patternManifest_1519917898810 = {
       "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\banners",
       "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\buttons",
       "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\cards",
-      "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\forms"
+      "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\forms",
+      "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\navigations",
+      "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\sections"
     ],
     "pages": []
   },
@@ -532,19 +534,21 @@ const patternManifest_1519917898810 = {
       "path": "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\banners",
       "html": [
         {
-          "name": "banner",
-          "namePretty": "Banner",
-          "path": "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\banners/banner.html",
-          "localPath": "patterns/banners/banner.html"
-        },
-        {
           "name": "top-banner",
           "namePretty": "Top banner",
           "path": "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\banners/top-banner.html",
-          "localPath": "patterns/banners/top-banner.html"
+          "localPath": "patterns/banners/top-banner.html",
+          "readme": {}
         }
       ],
-      "md": [],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\banners/README.md",
+          "localPath": "patterns/banners/README.md"
+        }
+      ],
       "css": [
         {
           "name": "banners",
@@ -668,6 +672,65 @@ const patternManifest_1519917898810 = {
           "localPath": "patterns/forms/forms.css"
         }
       ]
+    },
+    {
+      "name": "navigations",
+      "namePretty": "Navigations",
+      "path": "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\navigations",
+      "html": [
+        {
+          "name": "nav-bar",
+          "namePretty": "Nav bar",
+          "path": "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\navigations/nav-bar.html",
+          "localPath": "patterns/navigations/nav-bar.html",
+          "readme": {}
+        },
+        {
+          "name": "pagination",
+          "namePretty": "Pagination",
+          "path": "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\navigations/pagination.html",
+          "localPath": "patterns/navigations/pagination.html",
+          "readme": {}
+        }
+      ],
+      "md": [
+        {
+          "name": "readme",
+          "namePretty": "Readme",
+          "path": "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\navigations/README.md",
+          "localPath": "patterns/navigations/README.md"
+        }
+      ],
+      "css": [
+        {
+          "name": "navigations",
+          "namePretty": "Navigations",
+          "path": "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\navigations/navigations.css",
+          "localPath": "patterns/navigations/navigations.css"
+        }
+      ]
+    },
+    {
+      "name": "sections",
+      "namePretty": "Sections",
+      "path": "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\sections",
+      "html": [
+        {
+          "name": "sections",
+          "namePretty": "Sections",
+          "path": "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\sections/sections.html",
+          "localPath": "patterns/sections/sections.html"
+        }
+      ],
+      "md": [],
+      "css": [
+        {
+          "name": "sections",
+          "namePretty": "Sections",
+          "path": "C:\\Users\\David\\Dropbox\\gd4\\Web Dev 4\\ecommerce-pattern-library\\patterns\\sections/sections.css",
+          "localPath": "patterns/sections/sections.css"
+        }
+      ]
     }
   ],
   "config": {
@@ -690,5 +753,5 @@ const patternManifest_1519917898810 = {
   }
 };
 
-patternBotIncludes(patternManifest_1519917898810);
+patternBotIncludes(patternManifest_1521724458719);
 }());
