@@ -1,0 +1,13 @@
+h4 {
+  padding-top: 1.5em;
+}
+
+footer {
+  text-align: center;
+  background-color:#ededed;
+}
+
+.icon:hover {
+  color: #466e64;
+  transition: .5s ease;
+}
