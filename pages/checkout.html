@@ -13,46 +13,90 @@
       ".current[class]": "gutter-1-2"
     }
   </script>
-  <script type="application/json" data-pattern="banners/top-banner"></script>
+
+  <script type="application/json" data-pattern="banners/top-banner">
+  {
+    "h1": "Checkout",
+    "p": "Finalize this purchase",
+    ".btn": "Pay",
+    ".current[class]": "gutter-1-2"
+  }
+  </script>
+
+
   <main class="push-1-2 pad-t-1-2 pad-b-1-2" role="main" id="main">
     <div class="grid wrapper">
-      <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-2">
-        <script type="application/json" data-pattern="cards/basic-card">
-          {
-            "use[xlink:href]": "../images/chair-1.png#chair",
-            "h2": "Our New Chairs",
-            "p": "Buy our new customizable gaming chair!",
-            ".btn": "Sit comfortably now!"
-          }
-        </script>
-      </div>
-      <div class="unit xs-1 s-1 m-1-2 l-1-3 island-1-2">
-        <script type="application/json" data-pattern="cards/basic-card">
-          {
-            "use[xlink:href]": "../images/icons.svg#crystal",
-            "h2": "Keyboards",
-            "p": "Our amazing gaming-centered keyboards!",
-            ".btn": "Buy now!"
-          }
-        </script>
-      </div>
-      <div class="unit xs-1 s-1 unit-m-hidden l-1-3 island-1-2">
-        <script type="application/json" data-pattern="cards/basic-card">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2">
+        <script type="application/json" data-pattern="forms/input-fields">
         {
-          "use[xlink:href]": "../images/icons.svg#crystal",
-          "h2": "Enter to Win!",
-          "p": "Click to win one of our special mousepads!",
-          ".btn": "Click to enter!"
+          "label": "First Name"
         }
         </script>
       </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2">
+        <script type="application/json" data-pattern="forms/input-fields">
+        {
+          "label": "Last Name"
+        }
+        </script>
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1 island-1-2">
+        <script type="application/json" data-pattern="forms/input-fields">
+        {
+          "label": "Home Address"
+        }
+        </script>
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2">
+        <script type="application/json" data-pattern="forms/input-fields">
+        {
+          "label": "Phone Number"
+        }
+        </script>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2">
+        <script type="application/json" data-pattern="forms/dropdown"></script>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-2">
+        <script type="application/json" data-pattern="forms/radio-button">
+          {
+            "label": "Visa Debit Card"
+          }
+        </script>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-2">
+        <script type="application/json" data-pattern="forms/radio-button">
+          {
+            "label": "Credit Card"
+          }
+        </script>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1 l-1 island-1-2">
+        <script type="application/json" data-pattern="forms/input-fields">
+        {
+          "label": "Credit Card Number"
+        }
+        </script>
+      </div>
+
+      <div class="unit xs-1 s-1-2 m-1-3 l-1-4 island-1-2">
+        <script type="application/json" data-pattern="forms/input-fields">
+        {
+          "label": "CVV"
+        }
+        </script>
+
+        <div class="grid wrapper unit xs-1 s-1-2 m-1-3 l-1-4 island-1-2">
+          <a class="btn" href="#">Pay</a>
+        </div>
+
+      </div>
     </div>
-    <script type="application/json" data-pattern="sections/sections-boxed">
-      {
-        "h2": "It is almost time...",
-        "p": "Coming August 2018, we will be selecting a few of our most loyal customers for a chance to win $1,000. So get buyin'!"
-      }
-    </script>
     <script type="application/json" data-pattern="footer/footer"></script>
   </main>
 </body>
