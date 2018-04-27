@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Product</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="../common/patternbot.js"></script>
+</head>
+
+<body>
+  <script type="application/json" data-pattern="navigations/nav-bar">
+    {
+      ".current[class]": "gutter-1-2"
+    }
+  </script>
+  <script type="application/json" data-pattern="banners/top-banner"></script>
+  <main class="push-1-2 pad-t-1-2 pad-b-1-2" role="main" id="main">
+    <div class="grid wrapper">
+      <div class="unit xs-1 s-1 m-1-1 l-1-1 island-1-2">
+        <script type="application/json" data-pattern="sections/sections">
+        {
+          ".pad-t": "Zeus",
+          "p": "Sit comfortably, knowing the gold finish on this piece of art is making you look like a king."
+        }
+        </script>
+      </div>
+    </div>
+    <script type="application/json" data-pattern="footer/footer"></script>
+  </main>
+</body>
+</html>
